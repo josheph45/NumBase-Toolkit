@@ -6,7 +6,6 @@ def menu():
     """
     Meniul de comenzi al aplicatiei
     """
-    print(f'Nume: {Fore.MAGENTA}Huja Andrei-Iosif{Style.RESET_ALL}      Grupa: {Fore.MAGENTA}213{Style.RESET_ALL}      Cod unic: {Fore.MAGENTA}6Y142794{Style.RESET_ALL}')
     enunt = '''
     Enunț:
     Aplicaţia trebuie să exemplifice cele trei metode de conversie ale numerelor naturale
@@ -126,3 +125,4 @@ def get_list_for_fast_conv(input_base: str, output_base: str):
             return [('000', '0'), ('001', '1'), ('010', '2'), ('011', '3'), ('100', '4'), ('101', '5'), ('110', '6'), ('111', '7')]
         else:
             return [('0000', '0'), ('0001', '1'), ('0010', '2'), ('0011', '3'), ('0100', '4'), ('0101', '5'), ('0110', '6'), ('0111', '7'), ('1000', '8'), ('1001', '9'), ('1010', '10'), ('1011', '11'), ('1100', '12'), ('1101', '13'), ('1110', '14'), ('1111', '15')]
+
