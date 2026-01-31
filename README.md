@@ -1,5 +1,7 @@
 # NumBase-Toolkit
 
+[Demo](https://youtu.be/P8Wmq1zhK10)
+
 A production-grade CLI tool for pedagogical number system operations. It implements successive division, substitution, and rapid bit-grouping conversions, alongside column-wise arithmetic performed directly in the target base p∈{2,3,…,16}.
 
 ## Features
